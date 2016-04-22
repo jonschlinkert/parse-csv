@@ -8,6 +8,5 @@ var data = [
   '3,banana,potato'
 ].join('\n');
 
-
 console.log(csv.jsonDict(data, {headers: {included: true}}));
 console.log(csv.to('jsonDict', data, {headers: {included: true}}));

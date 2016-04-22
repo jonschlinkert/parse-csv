@@ -3,29 +3,25 @@
   "description": "CSV parser for node.js.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/parse-csv",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/parse-csv.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/parse-csv",
   "bugs": {
     "url": "https://github.com/jonschlinkert/parse-csv/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jonschlinkert/parse-csv/blob/master/LICENSE-MIT"
-    }
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "lib"
   ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
     "mocha": "*",
@@ -39,8 +35,5 @@
     "markdown",
     "templates",
     "verb"
-  ],
-  "dependencies": {
-    "lodash": "^2.4.1"
-  }
+  ]
 }
