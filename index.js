@@ -1,7 +1,7 @@
 /*!
  * parse-csv <https://github.com/jonschlinkert/parse-csv>
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
+ * Copyright (c) 2014-2016 Jon Schlinkert, contributors.
  * Licensed under the MIT license.
  */
 

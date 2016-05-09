@@ -1,3 +1,5 @@
+'use strict';
+
 // var render = require('./lib/render.js');
 var csv = require('./lib/');
 
