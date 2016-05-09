@@ -21,19 +21,36 @@
     "test": "mocha"
   },
   "dependencies": {
-    "lodash": "^2.4.1"
+    "extend-shallow": "^2.0.1",
+    "is-number": "^2.1.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "gulp-format-md": "^0.1.8"
   },
   "keywords": [
-    "docs",
-    "documentation",
-    "generate",
-    "generator",
-    "markdown",
-    "templates",
-    "verb"
-  ]
+    "csv",
+    "parse"
+  ],
+  "verb": {
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "reflinks": [
+      "verb"
+    ],
+    "toc": false,
+    "layout": "default",
+    "lint": {
+      "reflinks": true
+    },
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "parser-csv",
+        "gulp-convert"
+      ]
+    }
+  }
 }
